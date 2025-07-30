@@ -1,0 +1,63 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    color: #222;
+}
+header {
+    background: #005f73;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.logo {
+    width: 80px;
+    margin-bottom: 10px;
+}
+section.aluno {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background: #e0fbfc;
+}
+.foto {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.info p {
+    margin: 4px 0;
+}
+section.notas {
+    padding: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+th, td {
+    border: 1px solid #aaa;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #94d2bd;
+}
+.apto {
+    margin-top: 20px;
+    font-size: 18px;
+    color: green;
+    font-weight: bold;
+}
+footer {
+    text-align: center;
+    background: #005f73;
+    color: white;
+    padding: 10px;
+    margin-top: 40px;
+}
